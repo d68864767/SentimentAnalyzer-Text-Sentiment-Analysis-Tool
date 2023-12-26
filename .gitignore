@@ -1,0 +1,34 @@
+# .gitignore
+
+# Ignore Python build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.spec
+
+# Ignore virtual environment
+venv/
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+
+# Ignore Jupyter Notebook files
+*.ipynb_checkpoints/
+
+# Ignore database files
+*.db
+*.sqlite3
+
+# Ignore log files
+*.log
+
+# Ignore OpenAI API key
+openai_key.txt

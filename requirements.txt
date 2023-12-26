@@ -1,0 +1,11 @@
+# requirements.txt
+
+# Python version
+python>=3.6
+
+# Libraries for API requests and JSON handling
+requests>=2.25.1
+json>=2.0.9
+
+# OpenAI's Python client library
+openai>=0.27.0
